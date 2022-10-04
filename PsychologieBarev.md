@@ -11,7 +11,7 @@ je nábytkářská firma s několika prodejnami v ČR i internetovým obchodem.
 - bílá
 - černá 
 - šedá
-- další + barvy obrázku 
+- další + barvy obrázků 
 
 ## Barvy prodejny
 - modrá
