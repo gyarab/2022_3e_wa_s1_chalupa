@@ -1,5 +1,10 @@
 @charset "utf-8";
 
 h1 {
-    font-size: 2rem;
+  font-size: 2rem;
+}
+
+.imgFood {
+  height: 500px;
+  width: 500px;
 }
