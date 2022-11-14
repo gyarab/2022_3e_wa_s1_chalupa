@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>CHB</title>
+    </head>
+    <style>
+        i {
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+    <body>
+        <script>
+            const body = document.querySelector("body");
+            for (let i = 0; i < 8; i++) {
+                for (let j = 0; j < 9; j++) {
+                    if (j === 8) body.appendChild(document.createElement("br"));
+                    else {
+                        const square = document.createElement("i");
+                        if ((i - j) % 2 === 0) square.style.background = "#000";
+                        body.appendChild(square);
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
