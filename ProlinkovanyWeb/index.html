@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script defer src="main.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="./index.html">Oblíbené jídlo</a>
-      <a href="./schoolSubjects.html">Školní předměty</a>
-    </nav>
+    <head>
+        <meta charset="utf-8" />
+        <title>Domů</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        />
+        <script defer src="main.js"></script>
+    </head>
+    <body>
+        <nav>
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Domů</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./schoolSubjects.html">Předměty</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
-    <div class="content">
-      <h2>Moje oblíbené jídlo je toto</h2>
-      <img
-        class="imgFood"
-        src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJhbmRvbSUyMGZvb2QlMjBzdG9yZXxlbnwwfHwwfHw%3D&w=1000&q=80"
-        alt="Oblíbené jídlo"
-      />
-      <p>Mám ho hrozně rád</p>
-    </div>
-  </body>
+        <div class="content">
+            <h2>Moje oblíbené jídlo je toto</h2>
+            <img
+                class="imgFood"
+                src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJhbmRvbSUyMGZvb2QlMjBzdG9yZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+                alt="Oblíbené jídlo"
+            />
+            <p>Mám ho hrozně rád</p>
+        </div>
+    </body>
 </html>

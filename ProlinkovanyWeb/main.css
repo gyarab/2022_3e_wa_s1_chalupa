@@ -3,47 +3,27 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body,
 html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  background-color: rgb(126, 131, 126);
-  color: black;
-}
-
-nav {
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: rgb(92, 91, 91);
-}
-
-nav a {
-  height: 100%;
-  font-size: 1.5rem;
-  text-decoration: none;
-  padding: 0.5rem;
-}
-
-nav a:hover {
-  background-color: #333232;
-  color: aliceblue;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(126, 131, 126);
+    color: black;
 }
 
 h1 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .imgFood {
-  height: 500px;
-  width: 500px;
+    height: 500px;
+    width: 500px;
 }
 
 .content {
-  padding: 1rem;
+    padding: 1rem;
 }
