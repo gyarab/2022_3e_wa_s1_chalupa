@@ -19,9 +19,18 @@ h1 {
     font-size: 2rem;
 }
 
+h2 {
+    color: white;
+    text-align: center;
+}
+
 .imgFood {
-    height: 500px;
-    width: 500px;
+    width: 100%;
+    height: 10rem;
+    background-image: url("https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJhbmRvbSUyMGZvb2QlMjBzdG9yZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content {
